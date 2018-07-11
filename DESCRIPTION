@@ -1,9 +1,11 @@
 Package: rarrior
-Title: What the Package Does (one line, title case)
+Title: WARRIOR Project Functions for Reporting and Analysis
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person("Marly", "Cormar", email = "marlycormar@ufl.edu", role = c("aut", "cre")),
+    person("Philip", "Chase", email = "pbc@ufl.edu", role = c("aut")))
+Description: Provides functions that support the project-specific needs for reporting on data produced by WARRIOR Project. These functions have a specific focus on the data produced by the project's REDCap instance.
 Depends: R (>= 3.5.0)
-License: What license is it under?
+License: MIT
 Encoding: UTF-8
 LazyData: true
