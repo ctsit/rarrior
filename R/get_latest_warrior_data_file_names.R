@@ -7,10 +7,10 @@
 #'         returned_list[['data']] to get the data file name,
 #'         returned_list[['metadata']] to get the metadata file name and,
 #'         returned_list[['date']] to get the date associated with the data.
+#' @export
 #' @examples
 #' get_latest_warrior_data_file_names()
-#' get_latest_warrior_data_file_names('/warrior_data_file_directory')
-get_latest_warrior_data_file_names <- function(from_directory='~/Downloads/') {
+get_latest_warrior_data_file_names <- function(from_directory='~/Downloads/warrior_data/') {
   patterns <- c("data" = "WARRIOR_DATA_20\\d\\d.*\\.csv",
                 "metadata" = "WARRIOR_DataDictionary_20\\d\\d.*\\.csv",
                 "date" = "\\d{4}-\\d{2}-\\d{2}")
