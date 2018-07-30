@@ -6,6 +6,9 @@ Authors@R: c(
     person("Philip", "Chase", email = "pbc@ufl.edu", role = c("aut")))
 Description: Provides functions that support the project-specific needs for reporting on data produced by WARRIOR Project. These functions have a specific focus on the data produced by the project's REDCap instance.
 Depends: R (>= 3.5.0)
-License: MIT
+Imports:
+  rdatil
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
