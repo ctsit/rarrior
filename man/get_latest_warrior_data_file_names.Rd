@@ -6,7 +6,8 @@
 from_directory, as well as the date reflected in the filenames.
 If no arguments are provided, the directory is assumed to be the '~/Downloads/' folder.}
 \usage{
-get_latest_warrior_data_file_names(from_directory = "~/Downloads/")
+
+  get_latest_warrior_data_file_names(from_directory = "~/Downloads/warrior_data/")
 }
 \arguments{
 \item{from_directory}{A directory where to find the latest data.}
@@ -24,5 +25,4 @@ If no arguments are provided, the directory is assumed to be the '~/Downloads/' 
 }
 \examples{
 get_latest_warrior_data_file_names()
-get_latest_warrior_data_file_names('/warrior_data_file_directory')
 }
